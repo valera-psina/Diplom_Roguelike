@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6686d89237e1814e89409117a89730c, type: 3}
+  m_Name: RifleBullet
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileData
+  speed: 150
+  maxLifeTime: 3
+  sphereCastRadius: 0.05
+  collisionMask:
+    serializedVersion: 2
+    m_Bits: 426241
+  damage: 50
+  impactForce: 0.1
+  bulletHolePrefab: {fileID: 5922558424627699378, guid: 8d6b80103f3c2ef40bf579e36ba5cadb, type: 3}
+  decalOffset: 0.01
+  decalLifetime: 5
+  impactEffect: {fileID: 1623911256231011572, guid: 038f51321ae7a8844b69f7fe2845440d, type: 3}
+  isGhostDamage: 0

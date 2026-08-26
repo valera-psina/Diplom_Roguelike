@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7753d1473748474d94a26cd714cc62c, type: 3}
+  m_Name: Shotgun
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponData
+  fireRate: 0.3
+  magazineSize: 4
+  energyPerShot: 10
+  reloadTime: 2
+  fireMode: 2
+  shotgunPellets: 9
+  shotgunSpread: 2
+  flashEffectChance: 1
+  aimSwayScale: 0.5
+  aimRotationScale: 0.5
+  aimBobScale: 0.025
+  aimPositionOffset: {x: -0.319, y: -0.008, z: 0.059}
+  aimRotationOffset: {x: 0, y: 0, z: 0}
+  aimRecoilScale: 0.5
+  aimKickRecoilScale: 0.5
+  aimShakeMultiplier: 1.25
+  aimFOVSpeed: 8
+  aimFOVMultiplier: 0.8
+  shakeForceMultiplier: 1
+  weaponKickForce: 50
+  weaponKickForceHorizontal: 20
+  recoilReturnSpeed: 5
+  recoilPositionKick: {x: 0, y: 0, z: -0.4}
+  recoilPositionReturnSpeed: 8
+  shellEjectForce: 5
+  shellEjectTorque: 100
+  shellLifetime: 5
+  projectilePrefab: {fileID: 6284904257563519102, guid: b82733ef76dc78e4aaa5f2854390ff59, type: 3}
+  muzzleFlash: {fileID: 6464041470421545586, guid: f32de567a21d2114a9cc787e8faa3f2e, type: 3}
+  muzzleSmoke: {fileID: 5873673195301486066, guid: 9bbf26e22943ed14580d91f0fbe42855, type: 3}
+  shotSound: {fileID: 8300000, guid: b0adbdae2be094b4da0b0edf809e1347, type: 3}
+  reloadSound: {fileID: 8300000, guid: 590fdad51a6d6a54ea7444e5e36721f9, type: 3}
+  shellPrefab: {fileID: 0}
